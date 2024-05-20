@@ -26,7 +26,7 @@ function Show(){
 }
 function Add(board){
     var index = Math.ceil(Math.random()*(size*size));
-    for(i =0;;i = (i+1)%size)){
+    for(i =0;;i = (i+1)%size){
         for(j=0;;(j+1)%size){
             if(board[i][j] == 0) {
                 if(index < 0) {
