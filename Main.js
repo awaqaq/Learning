@@ -13,7 +13,7 @@ var board = [
 
 //board = DropDown(board);
 //board = DropUp(board);
-console.log("f6660pff");
+console.log("f6660poff");
 //console.log(board);
 Show()
 
@@ -29,6 +29,7 @@ function Add(board){
     var index = Math.ceil(Math.random()*(size*size));
     console.log(index);
     for(var i = 0;;i = (i+1)%size){
+      console.log("i" + i);
         for(var j = 0;;j = (j+1)%size){
           console.log(i,j);
             if(board[i][j] == 0) {
