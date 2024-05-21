@@ -19,7 +19,7 @@ Show()
 
 function Update()
 {
-    board = Add(board);
+    //board = Add(board);
     Show();
 }
 function Show(){
