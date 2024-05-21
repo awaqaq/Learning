@@ -19,15 +19,15 @@ Show()
 
 function Update()
 {
-    //board = Add(board);
+    board = Add(board);
     Show();
 }
 function Show(){
     document.querySelector('#board').innerHTML= board.map((value)=>value.toString()).join("<br>");
 }
 function Add(board){
-    console.log("dd");
     var index = Math.ceil(Math.random()*(size*size));
+    console.log(index);
     for(i =0;;i = (i+1)%size){
         for(j=0;;j = (j+1)%size){
             if(board[i][j] == 0) {
