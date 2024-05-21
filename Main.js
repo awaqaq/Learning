@@ -11,8 +11,8 @@ var board = [
   [2,4,0,0]
 ]
 
-board = DropDown(board);
-board = DropUp(board);
+//board = DropDown(board);
+//board = DropUp(board);
 console.log("f6660ff");
 //console.log(board);
 Show()
@@ -28,8 +28,8 @@ function Show(){
 function Add(board){
     var index = Math.ceil(Math.random()*(size*size));
     console.log(index);
-    for(i =0;;i = (i+1)%size){
-        for(j=0;;j = (j+1)%size){
+    for(var i = 0;;i = (i+1)%size){
+        for(var j = 0;;j = (j+1)%size){
           console.log(i,j);
             if(board[i][j] == 0) {
                 if(index < 0) {
