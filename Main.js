@@ -13,7 +13,7 @@ var board = [
 
 board = DropDown(board);
 board = DropUp(board);
-console.log("f66600ff");
+console.log("f6660ff");
 //console.log(board);
 Show()
 
