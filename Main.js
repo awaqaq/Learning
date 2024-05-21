@@ -35,7 +35,7 @@ function Add(board){
                     board[i][j] =2;
                     return board;
                 }
-                else indes--;
+                else index--;
             }
         }
     }
