@@ -30,12 +30,13 @@ function Add(board){
     console.log(index);
     for(i =0;;i = (i+1)%size){
         for(j=0;;j = (j+1)%size){
+          console.log(i,j);
             if(board[i][j] == 0) {
                 if(index < 0) {
                     board[i][j] =2;
                     return board;
                 }
-                else index--;
+              else index--;
             }
         }
     }
